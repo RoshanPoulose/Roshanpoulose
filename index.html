@@ -1,253 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Roshan Poulose</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <style>
+        /* global */
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+        .grid-2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
 
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #101214;
+            color: #7A7C80;
+        }
 
+        h2, .white{
+            color: #fff;
+        }
 
+        a{
+            color: #7A7C80;
+            text-decoration: none;
+        }
+
+        /* section 1 */
+        .section-1{
+            padding-top: 10vh;
+            text-align: center;
+            position: relative;
+        }
+
+        .section-1 p{
+            font-size: 1.1rem;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+
+        .section-1 h2{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .section-1 a{
+            font-size: 1.5rem;
+            padding: 10px;
+        }
+
+        .photo-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            overflow: hidden;
+            width: 600px;
+            height: 600px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* section 2 */
+        .section-2{
+            padding-top: 10vh;
+            width: 70%;
+        }
+
+        .section-2 h2{
+            font-size: 1.7rem;
+            margin-bottom: 10px;
+        }
+
+        .section-2 p{
+            font-size: 1.1rem;
+            padding-bottom: 10px;
+            margin: 0;
+        }
+
+        .section-2 a{
+            display: block;
+            padding: 5px;
+            font-size: 1.2rem;
+            padding-left: 0;
+            width: 100px;
+        }
+
+        /* animations / utilities */
+        .section-2 a:hover{
+            font-size: 1.3rem;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .section-1 a:hover{
+            color: #fff;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .white:hover{
+            position: relative;
+            padding-left: 10px;
+        }
+
+        /* media queries */
+        @media(max-width:780px){
+            .grid-2{
+                grid-template-columns: 1fr;
+            }
+            .section-1{
+                padding: 0;
+                padding-top: 5rem;
+            }
+            .section-2{
+                padding: 0;
+                padding-left: 1.5rem;
+                padding-top: 2rem;
+            }
+        }
+    </style>
+    <title>Roshan Poulose</title>
 </head>
-<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <div class="photo-container">
+                <img src="image_1.jpg" alt="Roshan Poulose's Photo">
+            </div>
+            <i class="fas fa-code fa-5x white"></i>
+            <h2>Roshan Poulose</h2>
+            <p>Sulthanbathery, Kerala.</p>
+            <a href="https://twitter.com/your_twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/roshan-poulose-2584b522a/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/your_github"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="section-2">
+            <h2>About</h2>
+            <p>I am an enthusiastic and detail-oriented MCA student with a passion for software development. I aim to create efficient and user-centric applications, contributing meaningfully to project success. Eager to bring technical acumen and a commitment to excellence to a dynamic development team.</p>
 
+            <h2>Experience</h2>
+            <p>J.P. Morgan Software Engineering - Software Engineering Job Simulation (09/2023)</p>
+            <p>Accenture North America - Data Analytics and Visualization Job Simulation on Forage (04/2022)</p>
 
+            <h2>Skills</h2>
+            <p>C++, HTML, Java, Microsoft Word, MYSQL, Python, Web Content Writing, WordPress, Developing Websites</p>
 
-	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+            <h2>Certifications</h2>
+            <p>Software Engineering Job Simulation - J.P. Morgan Software Engineering (09/2023)</p>
+            <p>Data Analytics and Visualization Job Simulation on Forage - Accenture North America (04/2022)</p>
 
-		<div class="container">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+            <h2>Contact</h2>
+            <p>Email: roshanpoulose10@gmail.com</p>
 
-
-			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-
-
-
-	<section class="site-hero" style="background-image: url(images/image_1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row intro-text align-items-center justify-content-center">
-				<div class="col-md-10 text-center pt-5">
-
-					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Roshan Poulose</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">and this is My Rezume</strong>
-
-				</div>
-			</div>
-		</div>
-	</section> <!-- section -->
-
-
-
-
-
-
-	
-	
-	<section class="site-section " id="section-resume">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
-					<div class="section-heading text-center">
-						<h2>My <strong>Resume</strong></h2>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<h2 class="mb-5">Education</h2>
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 04/2024</span>
-						<h3>MCA in Bachelor of Computer Application</h3>
-						<p>Nirmala College, Muvattupuzha, Kerala</p>
-						<p>GPA: 6.68</p>
-					</div>
-					
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 07/2022</span>
-						<h3>BCA in Bachelor of Computer Application</h3>
-						<p>Aphonsa Arts and Science College, Sulthan Bathery, Kerala</p>
-						<p>GPA: 6.3</p>
-					</div>
-					
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 03/2019</span>
-						<h3>12th</h3>
-						<p>GHSS Kakkavayal, Muttil South District, Wayanad (Kerala)</p>
-						<p>GPA: 7.3</p>
-					</div>
-					
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 03/2017</span>
-						<h3>10th</h3>
-						<p>St. Peters and St. Pauls School HSS, Meenangadi</p>
-						<p>GPA: 8.9</p>
-					</div>
-					
-				</div>
-				<div class="col-md-6">
-
-
-					<h2 class="mb-5">Certifications</h2>
-
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 09/2023</span>
-						<h3>Software Engineering Job Simulation</h3>
-						<p>J.P. Morgan Software Engineering</p>
-					</div>
-					
-					<div class="resume-item mb-4">
-						<span class="date"><span class="icon-calendar"></span> 04/2022</span>
-						<h3>Data Analytics and Visualization Job Simulation</h3>
-						<p>Accenture North America on Forage</p>
-						<p>Accenture North America</p>
-					</div>
-					
-
-
-				</div>
-			</div>
-		</div>
-	</section> <!-- .section -->
-
-	<section class="site-section" id="section-about">
-		<div class="container">
-			<div class="row mb-5 align-items-center">
-				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-					<img src="images/image_1.jpg" alt="Image placeholder" class="img-fluid">
-				</div>
-				<div class="col-lg-5 pl-lg-5">
-					<div class="section-heading">
-						<h2>About <strong>Me</strong></h2>
-					</div>
-					<p class="lead">Enthusiastic and detail-oriented software developer with a passion for creating efficient and user-centric applications. Proven ability to enhance system performance, resulting in a 15% boost in overall functionality. Strong problem-solving skills combined with a collaborative mindset, making meaningful contributions to project success. Eager to bring technical acumen and a commitment to excellence to a dynamic development team.</p>
-					<p class="mb-5">Versatile Software Developer Crafting Innovative Solutions</p>
-					
-					
-						<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
-						<a href="resume.pdf" download="Roshan_Poulose.pdf" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
-
-					</p>
-				</div>
-			</div>
-
-
-		</div>
-	</section>
-
-	<section class="site-section" id="section-contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mb-5">
-					<div class="section-heading text-center">
-						<h2>Get <strong>In Touch</strong></h2>
-					</div>
-				</div>
-
-				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="" class="site-form">
-						<h3 class="mb-5">Get In Touch</h3>
-						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
-						</div>
-						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
-						</div>
-						<div class="form-group">
-							<input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
-						</div>
-					</form>
-				</div>
-				<div class="col-md-5 pl-md-5">
-					<h3 class="mb-5">My Contact Details</h3>
-					<ul class="site-contact-details">
-						<li>
-							<span class="text-uppercase">Email</span>
-							roshanpoulose10@gmail.com
-						</li>
-						<li>
-							<span class="text-uppercase">Phone</span>
-							+91 9188323501
-						</li>
-						<li>
-							<span class="text-uppercase">Address</span>
-							Sulthanbathery, Kerala
-						</li>
-					</ul>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-
-
-	<footer class="site-footer">
-		<div class="container">
-
-			<div class="row mb-5">
-				<p class="col-12 text-center">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true" ></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</p>
-			</div>
-			
-			<div class="row mb-5">
-				<div class="col-md-12 text-center">
-					<p>
-						<a href="https://www.linkedin.com/in/roshan-poulose-2584b522a" class="social-item"><span class="icon-linkedin2"></span></a>
-						<a href="https://www.instagram.com/roshan_poulose_?igsh=MWdnNGdjc2s0OGN6bQ==" class="social-item"><span class="icon-instagram2"></span></a>
-						<a href="https://www.facebook.com/share/E2SJQzM5Zckkn7mT/?mibextid=qi2Omg" class="social-item"><span class="icon-facebook2"></span></a>
-				
-						
-					</p>
-				</div>
-			</div>
-			
-		</div>
-	</footer>
-
-
-
-
-	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/vendor/popper.min.js"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-
-	<script src="js/vendor/jquery.easing.1.3.js"></script>
-
-	<script src="js/vendor/jquery.stellar.min.js"></script>
-	<script src="js/vendor/jquery.waypoints.min.js"></script>
-
-	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-	<script src="js/custom.js"></script>
-
-	<!-- Google Map -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    	<script src="js/google-map.js"></script> -->
-
-    </body>
-    </html>
+            <!-- Download CV button -->
+            <a href="your_cv_url.pdf" download>
+                <button style="font-size: 1.2rem; padding: 8px 15px; background-color: #4CAF50; color: #fff; border: none; cursor: pointer;">Download CV</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
