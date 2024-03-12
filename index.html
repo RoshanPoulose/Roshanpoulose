@@ -55,14 +55,12 @@
         }
 
         .photo-container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            position: relative;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             overflow: hidden;
-            width: 600px;
-            height: 600px;
+            margin: 20px auto; /* Centering the photo */
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
 
@@ -138,11 +136,11 @@
     <div class="grid-2">
         <div class="section-1">
             <div class="photo-container">
-                <img src="image_1.jpg" alt="Roshan Poulose's Photo">
+                <img src="your_photo_url.jpg" alt="Roshan Poulose's Photo">
             </div>
-            <i class="fas fa-code fa-5x white"></i>
             <h2>Roshan Poulose</h2>
             <p>Sulthanbathery, Kerala.</p>
+            <i class="fas fa-code fa-5x white"></i>
             <a href="https://twitter.com/your_twitter"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/in/roshan-poulose-2584b522a/"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/your_github"><i class="fab fa-github"></i></a>
@@ -166,7 +164,7 @@
             <p>Email: roshanpoulose10@gmail.com</p>
 
             <!-- Download CV button -->
-            <a href="your_cv_url.pdf" download>
+            <a href="resume.pdf" download>
                 <button style="font-size: 1.2rem; padding: 8px 15px; background-color: #4CAF50; color: #fff; border: none; cursor: pointer;">Download CV</button>
             </a>
         </div>
