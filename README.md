@@ -1,4 +1,4 @@
-![Roshan Poulose](https://avatars.githubusercontent.com/u/your-github-id?v=4)
+
 
 <h1 align="center">Hi there, I'm Roshan Poulose! 👋</h1>
 
