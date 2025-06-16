@@ -3,7 +3,7 @@
 <h1 align="center">Hi there, I'm Roshan Poulose! 👋</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="250">
+   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="250" style="border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.4);" alt="Git Animation">
 </p>
 
 ## 🚀 About Me
